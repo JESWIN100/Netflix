@@ -1,0 +1,287 @@
+body{
+    
+        margin: 0;
+        padding: 0;
+        flex-wrap: wrap;
+        display: flex;
+        font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+      color: #fff;
+        background: black;
+
+}
+.header{
+    background-image: 
+            linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+ url('https://assets.nflxext.com/ffe/siteui/vlv3/855ed6e2-d9f1-4afd-90da-96023ec747c3/85eb5b91-25ed-4965-ace9-ba8e4a0ead8d/IN-en-20230828-popsignuptwoweeks-perspective_alpha_website_small.jpg');
+    width: 100%;
+    height: 730px;
+ background-color: black 40%;
+            background-size: contain;
+background-position: center;
+padding: 10px 8%;
+position: relative;
+}
+.spcae{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 10px 0;
+}
+.logo{
+    width: 150px;
+    cursor: pointer;
+}
+select{
+    appearance: none;
+    border: 0;
+    outline: 0;
+    font: inherit;
+    width: 20em;
+    height: 3em;
+    padding: 0 4em 0 1em;
+    background: url(https://upload.wikimedia.org/wikipedia/commons/9/9d/Caret_down_font_awesome_whitevariation.svg) no-repeat right 0.8em center/1.4em, linear-gradient(to left, rgba(255, 255, 255, 0.3) 3em, rgba(255, 255, 255, 0.2) 3em);
+    color: white;
+    border-radius: 0.25em;
+    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    width: 116px;
+    padding-right: 2.25rem;
+    line-height: 1.25rem;
+    height: 40px;
+}
+.btn{
+    user-select: none;
+    border: 0;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    fill: currentColor;
+    position: relative;
+    transition-duration: 250ms;
+    transition-property: background-color,border-color;
+    transition-timing-function: cubic-bezier(0.9, 0, 0.51, 1);
+    vertical-align: text-top;
+    width: auto;
+    font-size: 0.875rem;
+    font-weight: 500;
+    min-height: 2rem;
+    padding: 0.25rem 1rem;
+    background: rgb(229,9,20);
+    color: rgb(255,255,255);
+    margin-top: -5px;
+    margin-left: 10px;
+}
+input:hover{
+    background: rgb(189, 38, 38);
+
+}
+.header-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    margin-top: 100px;
+}
+.header-content h1{
+    font-size: 3rem;
+    line-height: 70px;
+    font-weight: 600;
+    width: 20000px;
+    margin-top: -198px;
+    margin-left: -55px;
+    font-family: Helvetica Neue,Helvetica,Arial, Helvetica, sans-serif;
+}
+.header-content h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    font-family: Helvetica Neue,Helvetica,Arial, Helvetica, sans-serif;
+    margin-top: -29px;
+    margin-left: -45px;
+}
+.header-content p{
+    
+    
+    text-align: center;
+    color: #fff;
+    font-family: Helvetica Neue,Helvetica,Arial, Helvetica, sans-serif;
+    margin-top: 2px;
+    margin-left: -17px;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.875rem;
+}
+.email-sign{
+    background: #fff;
+    position: relative;
+    display: inline-flex;
+    flex-wrap: wrap;
+    vertical-align: text-top;
+    border-radius: 4px;
+    padding-top: 10px;
+
+}
+.mail{
+    flex: 1;
+    border: 0;
+    outline: 0;
+    margin-left: 20px;
+    color: #fff;
+    background: rgb(255, 255, 255);
+}
+
+.strt{
+    background: #db0001;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 15px 30px;
+    margin-left: 270px;
+    margin-top: -10px;
+}
+
+.mail :hover{
+    background: #fff;
+    color: #fff;
+}
+.features{
+    padding: 50px 12%;
+    font-size: 22px;
+}
+.row{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+    .h2{
+        font-size: 3rem;
+        font-weight: 900;
+        height: 44px;
+        align-items: center;
+    }
+    .h3{
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
+
+.right-section{
+    width: 50%;
+    float: left;
+    align-items: center;
+}
+.left-section{
+    display: block;
+    width: 50%;
+    margin: auto;
+    float: left;
+}
+.image{
+    width: 400px;
+}
+.image-video{
+    z-index: -1;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    max-width: 68%; 
+    max-height: 23%;
+    position: absolute;
+    top: 124%;
+    left: 29%;
+}
+.line{
+    width: 100%;
+    height: 0.5rem;
+    position: absolute;
+    bottom: -31.5rem;
+    background-color: rgb(35,35,35);
+    margin-left: -182px;
+}
+.download{
+    border: 2px solid;
+    border-radius: 15px;
+    padding: -3px;
+    height: 80px;
+    display: grid;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    bottom: -924px;
+    width: 299px;
+    left: 30%;
+    margin-left: -135px;
+    background-color: #000;
+    gap: -23px;
+    grid-template-columns: max-content 1fr max-content;
+
+}
+.cover{
+    height: 75px;
+    width: auto;
+}
+.round{
+    height: 41px;
+    margin-right: 10px
+}
+.women{
+    width: 100%;
+}
+.h33{
+   
+        font-size: 1.5rem;
+    font-weight: 400;
+    padding-top: 110px;
+    margin-top: -48px;
+}
+.linee{
+         width: 100%;
+         height: 0.5rem;
+        position: absolute;
+        bottom: -62.5rem;
+        background-color: rgb(35,35,35);
+        margin-left: -766px;
+
+}
+    
+    
+#imagee{
+    width: 400px;
+}
+#image-videoo{
+    z-index: -1;
+    overflow: hidden;
+    width: 105%;
+    height: 100%;
+    max-width: 68%;
+    max-height: 20%;
+    position: absolute;
+    top: 242%;
+    left: 29%;
+}
+.h333{
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding-top: 100px;
+    margin-top: -103px;
+}
+.lineee{
+    width: 100%;
+    height: 0.5rem;
+    position: absolute;
+    bottom: -86.5rem;
+   background-color: rgb(35,35,35);
+   margin-left: -766px;
+}
+.lineeee{
+    width: 100%;
+    height: 0.5rem;
+    position: absolute;
+    bottom: -120.5rem;
+    background-color: rgb(35,35,35);
+   margin-left: -189px;
+}
